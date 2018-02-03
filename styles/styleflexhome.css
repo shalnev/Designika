@@ -3,6 +3,7 @@
     src: url(fonts/ProximaNovaBold.otf);
     font-weight: bold;
 }
+
 .footer_link {
     color: #aaaaaa;
     text-decoration: none;
@@ -10,6 +11,7 @@
     text-align: center;
     font-family: 'Noto Serif', serif;
 }
+
 .footer_link p {
     padding: 10px 0 5px 0;
 }
@@ -21,6 +23,11 @@ header {
 .black_logo, .gradient_logo {
     padding: 20px 0 40px 0;
 }
+.li_container img
+{
+    width: 100%;
+}
+
 /*Logo animation */
 .black_logo {
     opacity: 1;
@@ -56,9 +63,8 @@ ul {
 
 .li_container figcaption {
     position: absolute;
-    height: 88.7%;
-    width: 88.7%;
-    padding: 20px;
+    height: 100%;
+    width: 100%;
     background: #A4EEFF;
     display: -webkit-flex;
     -webkit-flex-direction: row;
@@ -77,8 +83,8 @@ ul {
     opacity: 0;
 }
 
- figure:hover figcaption {
-     opacity: 1;
+figure:hover figcaption {
+    opacity: 1;
     -webkit-transform: translate(20px, 20px);
     -moz-transform: translate(20px, 20px);
     -ms-transform: translate(20px, 20px);
@@ -116,7 +122,7 @@ figcaption a {
     bottom: 0;
     font-family: "Proxima Nova Rg", sans-serif;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.3vw;
     letter-spacing: 1px;
     font-weight: 600;
 
@@ -134,37 +140,46 @@ figcaption a:hover {
     align-items: center;
 }
 
+li {
+    width: 23%;
+    padding: 1%;
+}
+
 @media only screen and (max-width: 479px) {
     li {
-        padding: 35px;
-        width: 100%;
+        padding: 10%;
+        width: 80%;
     }
 
     .black_logo, .gradient_logo {
         padding: 20px 0 30px 0;
-        height: 60px;
         width: 60px;
+    }
+
+    figcaption a {
+        font-size: 4.5vw;
     }
 }
 
 @media only screen and (max-width: 768px) and (min-width: 480px) {
     li {
-        width: 40%;
-        padding: 5%;
+        width: 42%;
+        padding: 4%;
     }
+
     figcaption a {
-        font-size: 1em;
+        font-size: 2.5vw;
     }
+
     .black_logo, .gradient_logo {
         padding: 20px 0 40px 0;
-        height: 55px;
         width: 55px;
     }
 }
 
-@media screen and (max-width: 1440px) and (min-width: 769px){
+@media screen and (max-width: 1440px) and (min-width: 769px) {
     li {
         width: 30%;
-        padding: 1.7% 1.666%;
+        padding: 1.666%;
     }
 }
