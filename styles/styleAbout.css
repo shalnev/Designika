@@ -33,7 +33,7 @@ footer {
     font-size: 13px;
 }
 
-.blackLogo, .gradientLogo {
+.black_logo, .gradient_logo {
     height: 40px;
     width: 40px;
     padding-top: 10px;
@@ -85,7 +85,7 @@ div.logo_home {
         width: 83.90625%;
     }
 
-    .blackLogo, .gradientLogo {
+    .black_logo, .gradient_logo {
         height: 60px;
         width: 60px;
         padding-top: 20px;
@@ -109,7 +109,7 @@ div.logo_home {
         width: 63.77273%;
     }
 
-    .blackLogo, .gradientLogo {
+    .black_logo, .gradient_logo {
         height: 80px;
         width: 80px;
     }
