@@ -10,7 +10,7 @@ body {
     padding-bottom: 10px;
 }
 
-.blackLogo, .gradientLogo {
+.black_logo, .gradient_logo {
     height: 40px;
     width: 40px;
     padding-top: 10px;
@@ -46,7 +46,7 @@ header {
 }
 
 /*Logo animation */
-.blackLogo {
+.black_logo {
     opacity: 1;
     display: block;
     position: absolute;
@@ -55,17 +55,15 @@ header {
     -webkit-transition-duration: 0.96s;
     -moz-transition-duration: 0.96s;
     -o-transition-duration: 0.96s;
-    -ms-transition-duration: 0.96s;
 }
 
-.blackLogo:hover {
+.black_logo:hover {
     opacity: 0.00;
 }
 
-div.logoHome {
+div.logo_home {
     display: inline-block;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: no-repeat center center;
     margin: 0;
     padding: 0;
 }
@@ -77,7 +75,7 @@ div.logoHome {
         width: 83.90625%;
     }
 
-    .blackLogo, .gradientLogo {
+    .black_logo, .gradient_logo {
         height: 60px;
         width: 60px;
         padding-top: 20px;
@@ -101,7 +99,7 @@ div.logoHome {
         width: 79.91667%;
     }
 
-    .blackLogo, .gradientLogo {
+    .black_logo, .gradient_logo {
         height: 80px;
         width: 80px;
         padding-top: 20px;
@@ -138,7 +136,7 @@ div.logoHome {
         width: 85.91667%;
     }
 
-    .blackLogo, .gradientLogo {
+    .black_logo, .gradient_logo {
         height: 80px;
         width: 80px;
         padding-top: 20px;
