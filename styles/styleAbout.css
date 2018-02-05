@@ -40,7 +40,7 @@ footer {
 }
 
 /* Logo animation */
-.blackLogo {
+.black_logo {
     opacity: 1;
     display: block;
     position: absolute;
@@ -49,17 +49,15 @@ footer {
     -webkit-transition-duration: 0.96s;
     -moz-transition-duration: 0.96s;
     -o-transition-duration: 0.96s;
-    -ms-transition-duration: 0.96s;
 }
 
-.blackLogo:hover {
+.black_logo:hover {
     opacity: 0.00;
 }
 
-div.logoHome {
+div.logo_home {
     display: inline-block;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: no-repeat center center;
     margin: 0;
     padding: 0;
 }
